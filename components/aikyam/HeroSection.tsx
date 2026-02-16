@@ -69,27 +69,37 @@ export default function HeroSection() {
         </motion.h1>
 
         <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
-          className="text-xl sm:text-3xl md:text-4xl mb-4 text-purple-100 font-light"
-        >
-          The Sacred Digital Harmony
-        </motion.p>
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1, delay: 0.5 }}
+  className="text-xl sm:text-3xl md:text-4xl mb-4 text-purple-100 font-light"
+>
+  The Sacred Digital Harmony
+</motion.p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.7 }}
-          className="max-w-4xl mx-auto mb-12"
-        >
-          <p className="text-xl md:text-2xl text-purple-200 leading-relaxed font-light">
-            Where temples, priests, and devotees unite in one divine rhythm.
-          </p>
-          <p className="text-lg md:text-xl text-purple-300 mt-4 leading-relaxed">
-            Live darshans, personalized poojas, and temple sanctums — guided by verified priests, only on Android & iOS.
-          </p>
-        </motion.div>
+<motion.div
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1, delay: 0.7 }}
+  className="max-w-4xl mx-auto mb-12"
+>
+  <p className="text-xl md:text-2xl text-purple-200 leading-relaxed font-light">
+    Aikyam is a stealth mode startup operating in India’s Faith-Tech sector. We see immense opportunity and rapid evolution in this emerging space.
+  </p>
+
+  <p className="text-lg md:text-xl text-purple-300 mt-4 leading-relaxed">
+    Anticipating complex technological challenges, we are building cutting-edge AI solutions for language processing, image recognition, intelligent search, personalized recommendations, and more.
+  </p>
+
+  <p className="text-lg md:text-xl text-purple-300 mt-4 leading-relaxed">
+    Our team is developing scalable backend systems and reliable mobile applications to power the next generation of spiritual technology.
+  </p>
+
+  <p className="text-lg md:text-xl text-purple-300 mt-4 leading-relaxed">
+    If you're excited to be part of this mission, we’d love to connect — we’re hiring!
+  </p>
+</motion.div>
+
 
         {/* CTA Buttons */}
         <motion.div
@@ -123,7 +133,7 @@ export default function HeroSection() {
           transition={{ duration: 1, delay: 1.1 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 w-full px-4 sm:px-0"
         >
-          <Button 
+          {/* <Button 
             size="lg"
             variant="outline"
             className="w-full sm:w-auto border-2 border-yellow-400 text-yellow-400 hover:bg-purple-800 px-6 sm:px-8 py-3 sm:py-6 text-sm sm:text-lg rounded-full transition-all duration-300 transform hover:scale-105 bg-transparent"
@@ -131,7 +141,7 @@ export default function HeroSection() {
             <Users className="mr-2 w-4 sm:w-5 h-4 sm:h-5" />
             <span className="hidden sm:inline">Join as a Priest</span>
             <span className="sm:hidden">Join Priest</span>
-          </Button>
+          </Button> */}
           
           <Button 
             size="lg"

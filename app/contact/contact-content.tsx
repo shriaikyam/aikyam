@@ -39,21 +39,10 @@ export default function ContactContent() {
     {
       icon: Mail,
       title: 'Email',
-      details: 'hello@aikyam.in',
+      details: 'info@aikyam.com',
       subtext: 'General inquiries',
     },
-    {
-      icon: Phone,
-      title: 'Phone',
-      details: '+91 98765 43210',
-      subtext: 'Support hotline (9 AM - 6 PM IST)',
-    },
-    {
-      icon: MapPin,
-      title: 'Address',
-      details: 'Bengaluru, Karnataka',
-      subtext: 'Bharat',
-    },
+    
   ];
 
   return (

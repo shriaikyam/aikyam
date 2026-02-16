@@ -62,7 +62,7 @@ export default function Footer() {
           </motion.div>
 
           {/* Quick links */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -77,7 +77,7 @@ export default function Footer() {
               <li><a href="/blog" className="hover:text-white transition-colors">Blog</a></li>
               <li><a href="/faq" className="hover:text-white transition-colors">FAQ</a></li>
             </ul>
-          </motion.div>
+          </motion.div> */}
 
           {/* Contact */}
           <motion.div
@@ -91,11 +91,11 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-white">hello@aikyam.in</p>
+                  <p className="text-white">info@shriaikyam.com</p>
                   <p className="text-sm">General inquiries</p>
                 </div>
               </li>
-              <li className="flex items-start gap-3">
+              {/* <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-white">priests@aikyam.in</p>
@@ -108,12 +108,12 @@ export default function Footer() {
                   <p className="text-white">+91 98765 43210</p>
                   <p className="text-sm">Support hotline</p>
                 </div>
-              </li>
+              </li> */}
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-white">Bengaluru, Karnataka</p>
-                  <p className="text-sm">Bharat</p>
+                  {/* <p className="text-sm">Bharat</p> */}
                 </div>
               </li>
             </ul>

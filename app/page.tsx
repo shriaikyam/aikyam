@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '@/components/aikyam/Header';
+// import Header from '@/components/aikyam/Header';
 import HeroSection from '@/components/aikyam/HeroSection';
-import CoreBelief from '@/components/aikyam/CoreBelief';
-import Features from '@/components/aikyam/Features';
-import PriestLed from '@/components/aikyam/PriestLed';
+// import CoreBelief from '@/components/aikyam/CoreBelief';
+// import Features from '@/components/aikyam/Features';
+// import PriestLed from '@/components/aikyam/PriestLed';
 import AikyamAI from '@/components/aikyam/AikyamAI';
 import DevoteeJourney from '@/components/aikyam/DevoteeJourney';
 import TemplesAndPriests from '@/components/aikyam/TemplesAndPriests';
@@ -26,7 +26,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="relative bg-gradient-to-b from-purple-900 via-purple-50 to-white overflow-hidden">
-      <Header />
+      {/* <Header /> */}
 
       {/* Main Content */}
       <main className="w-full">
@@ -34,17 +34,17 @@ export default function Home() {
           <HeroSection />
         </section>
 
-        <section id="beliefs" className="scroll-mt-20">
+        {/* <section id="beliefs" className="scroll-mt-20">
           <CoreBelief />
-        </section>
+        </section> */}
 
-        <section id="features" className="scroll-mt-20">
+        {/* <section id="features" className="scroll-mt-20">
           <Features />
-        </section>
+        </section> */}
 
-        <section id="priests" className="scroll-mt-20">
+        {/* <section id="priests" className="scroll-mt-20">
           <PriestLed />
-        </section>
+        </section> */}
 
         <section id="ai" className="scroll-mt-20">
           <AikyamAI />
